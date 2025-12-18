@@ -8,8 +8,11 @@ Ce TP a pour objectif de comprendre et mettre en pratique la **gestion des conte
 
 docker-tp3/
 ├── etape1/ # Nginx + PHP-FPM (2 conteneurs)
+
 ├── etape2/ # Nginx + PHP-FPM + MariaDB (3 conteneurs)
+
 ├── etape3/ # Même architecture que l'étape 2 mais avec Docker Compose
+
 └── README.md
 
 
