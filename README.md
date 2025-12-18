@@ -21,9 +21,9 @@ Chaque étape contient :
 
 - `src/` → fichiers PHP (`index.php`, `test.php`)  
 - `config/` → configuration Nginx (`default.conf`)  
-- `initdb/` → fichiers SQL d’initialisation pour MariaDB (create.sql)  
+- `initdb/` → fichiers SQL d’initialisation pour MariaDB (`create.sql`)  
 - `Dockerfile` → image PHP avec extensions nécessaires (`mysqli`)  
-- `launch.sh` → script pour lancer les conteneurs (étapes 1 et 2)  
+- `launch.sh` → script pour lancer les conteneurs (étapes 1, 2, 3)  
 - `docker-compose.yml` → fichier Compose (étape 3)
 
 ---
